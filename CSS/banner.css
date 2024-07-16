@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 991px) {
+
+    .name_banner {
+        background-color: var(--color-light-secondary);
+        height: auto;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #name_banner {
+        display: flex;
+        width: 200%;
+        height: 100%;
+        color: var(--color-primary);
+        align-items: center;
+        justify-content: start;
+        white-space: nowrap;
+        transform: translateX(-17.7%);
+        animation-name: heading3;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes heading3 {
+        0% {
+            transform: translateX(-17.7%);
+        }
+        
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    #name_banner > h1 {
+        text-transform: uppercase;
+        font-size: var(--size-7xl);
+        
+    }
+
+
+
+}
+@media screen and (max-width: 767px) {}
+@media screen and (max-width: 555px) {}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 768px) {
+
+    .name_banner {
+        background-color: var(--color-light-secondary);
+        height: auto;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #name_banner {
+        display: flex;
+        width: 200%;
+        height: 100%;
+        color: var(--color-primary);
+        align-items: center;
+        justify-content: start;
+        white-space: nowrap;
+        transform: translateX(-17.7%);
+        animation-name: heading3;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes heading3 {
+        0% {
+            transform: translateX(-17.7%);
+        }
+        
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    #name_banner > h1 {
+        text-transform: uppercase;
+        font-size: var(--size-8xl);
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    #name_banner {
+        transform: translateX(-22.5%);
+        animation-name: heading3;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes heading3 {
+        0% {
+            transform: translateX(-22.5%);
+        }
+        
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}
+@media screen and (min-width: 1279px) {
+
+    #name_banner {
+        transform: translateX(-23.1%);
+        animation-name: heading3;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes heading3 {
+        0% {
+            transform: translateX(-23.1%);
+        }
+        
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+}
+

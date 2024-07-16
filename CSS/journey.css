@@ -1,0 +1,207 @@
+@media screen and (max-width: 991px) {
+
+    main {
+        height: auto;
+        width: 100%;
+    }
+
+    .journey {
+        background-color: var(--color-light-secondary);
+        color: var(--color-primary);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #left_div {
+        padding-left: 2rem;
+        height: 100%;
+        width: 50%;
+    }
+
+    #left_div > h1 {
+        font-size: var(--size-8xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+
+    #right_div {
+        width: 50%;
+        height: 100%;
+        padding-right: 2rem;
+    }
+
+    #right_upper_div {
+        width: 100%;
+        padding-top: 6rem;
+    }
+
+    #right_upper_div > p {
+        font-size: var(--size-2xl);
+        font-family: "Grenze", serif;
+        font-weight: 600;
+    }
+
+    #right_bottom_div {
+        padding-top: 2rem;
+        display: flex;
+    }
+
+    #bottom_left_div {
+        width: 50%;
+    }
+
+    #bottom_left_div > p {
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-secondary);
+    }
+
+    #bottom_right_div {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    #bottom_right_div > p {
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-secondary);
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .journey {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #left_div {
+        width: 100%;
+        padding-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #left_div > h1 {
+        font-size: var(--size-6xl);
+    }
+
+    #right_div {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    #right_upper_div {
+        padding-top: 4rem;
+    }
+
+    #bottom_right_div {
+        padding-left: 0rem;
+    }
+
+    #bottom_right_div {
+        width: 50%;
+        padding-left: 2rem;
+    }
+
+}
+@media screen and (max-width: 555px) {}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 768px) {
+
+    main {
+        height: auto;
+        width: 100%;
+    }
+
+    .journey {
+        background-color: var(--color-light-secondary);
+        color: var(--color-primary);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+
+    #left_div {
+        padding-left: 5rem;
+        margin-right: 4rem;
+        height: 100%;
+        width: 50%;
+    }
+
+    #left_div > h1 {
+        font-size: var(--size-8xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+
+    #right_div {
+        width: 50%;
+        height: 100%;
+        padding-right: 5rem;
+        padding-top: 4rem;
+    }
+
+    #right_upper_div {
+        width: 100%;
+        padding-top: 6rem;
+    }
+
+    #right_upper_div > p {
+        font-size: var(--size-4xl);
+        font-family: "Grenze", serif;
+        font-weight: 600;
+    }
+
+    #right_bottom_div {
+        padding-top: 2rem;
+        display: flex;
+    }
+
+    #bottom_left_div {
+        width: 50%;
+    }
+
+    #bottom_left_div > p {
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-secondary);
+    }
+
+    #bottom_right_div {
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+    #bottom_right_div > p {
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-secondary);
+    }
+
+}
+@media screen and (min-width: 1200px) {
+
+    .journey {
+        height: 100vh;
+    }
+
+}
+@media screen and (min-width: 1279px) {}

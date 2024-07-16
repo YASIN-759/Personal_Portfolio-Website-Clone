@@ -1,0 +1,270 @@
+
+@media screen and (max-width: 991px) {
+
+    .support {
+        height: auto;
+        width: 100%;
+        background-color: var(--color-primary);
+        display: flex;
+    }
+    
+    #support_left_div {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding-left: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #support_left_div > h1 {
+        font-size: var(--size-8xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+    
+    #support_left_div > p {
+        padding-top: 1rem;
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-light-secondary);
+    }
+    
+    #support_right_div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 2rem;
+        padding-top: 7rem;
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    
+    #logo_design {
+        width: 100%;
+        height: 25%;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--color-light-secondary);
+    }
+    
+    #logo_design > h1 {
+        font-family: "Grenze", serif;
+        font-size: var(--size-5xl);
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    #logo_design > p {
+        font-size: var(--size-md);
+        font-family: Gilroy;
+        font-weight: 100;
+    }
+    
+    #package_design {
+        width: 100%;
+        height: 25%;
+        border-bottom: 1px solid var(--color-light-secondary);
+    }
+    
+    #package_design > h1 {
+        font-family: "Grenze", serif;
+        font-size: var(--size-5xl);
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    #package_design > p {
+        font-size: var(--size-md);
+        font-family: Gilroy;
+        font-weight: 100;
+    }
+
+}
+@media screen and (max-width: 767px) {
+
+    .support {
+        height: auto;
+        width: 100%;
+        background-color: var(--color-primary);
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #support_left_div {
+        width: 100%;
+        height: auto;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        align-items: start;
+    }
+
+    #support_left_div > h1 {
+        font-size: var(--size-6xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+
+    #support_right_div {
+        width: 100%;
+    }
+
+    #logo_design {
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    #logo_design > h1 {
+        font-family: "Grenze", serif;
+        font-size: var(--size-4xl);
+    }
+
+    #package_design {
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    #package_design > h1 {
+        font-family: "Grenze", serif;
+        font-size: var(--size-4xl);
+    }
+
+}
+@media screen and (max-width: 555px) {}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 768px) {
+
+    .support { 
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-primary);
+        display: flex;
+    }
+    
+    #support_left_div {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding-left: 5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #support_left_div > h1 {
+        font-size: var(--size-8xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+    
+    #support_left_div > p {
+        padding-top: 1rem;
+        font-family: Gilroy;
+        font-size: var(--size-xl);
+        color: var(--color-light-secondary);
+    }
+    
+    #support_right_div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 6rem;
+        padding-top: 7rem;
+        padding-left: 1rem;
+    }
+    
+    #logo_design {
+        width: 100%;
+        height: 25%;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--color-light-secondary);
+    }
+    
+    #logo_design > h1 {
+        font-size: var(--size-5xl);
+        font-family: "Grenze", serif;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    #logo_design > p {
+        font-size: var(--size-md);
+        font-family: Gilroy;
+        font-weight: 100;
+    }
+    
+    #package_design {
+        width: 100%;
+        padding-bottom: 1rem;
+        height: 25%;
+        border-bottom: 1px solid var(--color-light-secondary);
+    }
+    
+    #package_design > h1 {
+        font-size: var(--size-5xl);
+        font-family: "Grenze", serif;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    #package_design > p {
+        font-size: var(--size-md);
+        font-family: Gilroy;
+        font-weight: 100;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+
+    .support { 
+        height: 100vh;
+        width: 100%;
+    }
+
+    #support_left_div {
+        height: 80%;
+    }
+
+    #logo_design {
+        height: 50%;
+    }
+    
+    #package_design {
+        height: 50%;
+    }
+
+    #support_right_div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 6rem;
+        padding-top: 10rem;
+        padding-left: 1rem;
+    }
+
+}
+@media screen and (min-width: 1279px) {
+
+    #logo_design {
+        height: 35%;
+    }
+    
+    #package_design {
+        height: 35%;
+    }
+
+}

@@ -1,0 +1,181 @@
+
+@media screen and (max-width: 991px) {
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        width: 100%;
+        background-color: var(--color-light-secondary);
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        overflow: hidden;
+    }
+
+    #contact_banner {
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding-bottom: 3rem;
+        white-space: nowrap;
+        color: var(--color-primary);
+    }
+
+    #contact_banner > h1,
+    #contact_banner > p {
+        font-size: var(--size-8xl);
+        -webkit-text-stroke-color: var(--color-primary);
+        -webkit-text-stroke-width: 1px ;
+        color: var(--color-primary);
+        animation-name: contact_banner;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transform: translateX(0%);        
+    }
+
+    #contact_banner > .filled_text {
+        -webkit-text-stroke-color: none;
+        -webkit-text-stroke-width: 1px ;
+        color: transparent;
+    }
+
+    @keyframes contact_banner {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-199.5%);
+        }
+    }
+
+    #contact_btn {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact_btn > button {
+        border: 1px solid black;
+        width: 700px;
+        height: 130px;
+    }
+
+    #contact_btn > button > h1 {
+        font-size: var(--size-6xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    #contact_btn > button {
+        width: 500px;
+    }    
+
+}
+
+@media screen and (max-width: 555px) {
+
+    #contact_btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #contact_btn > button {
+        width: 400px;
+        height: 90px;
+    }
+    
+    #contact_btn > button > h1 {
+        font-size: var(--size-5xl);
+    }
+
+}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 768px) {
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        width: 100%;
+        background-color: var(--color-light-secondary);
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        overflow: hidden;
+    }
+
+    #contact_banner {
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding-bottom: 3rem;
+        white-space: nowrap;
+        color: var(--color-primary);
+    }
+
+    #contact_banner > h1,
+    #contact_banner > p {
+        font-size: var(--size-8xl);
+        -webkit-text-stroke-color: var(--color-primary);
+        -webkit-text-stroke-width: 1px ;
+        color: var(--color-primary);
+        animation-name: contact_banner;
+        animation-duration: 35s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transform: translateX(0%);        
+    }
+
+    #contact_banner > .filled_text {
+        -webkit-text-stroke-color: none;
+        -webkit-text-stroke-width: 1px ;
+        color: transparent;
+    }
+
+    @keyframes contact_banner {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-199.5%);
+        }
+    }
+
+    #contact_btn {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact_btn > button {
+        border: 1px solid black;
+        width: 700px;
+        height: 130px;
+    }
+
+    #contact_btn > button > h1 {
+        font-size: var(--size-6xl);
+        letter-spacing: 1px;
+        font-family: "Grenze", serif;
+    }
+
+}
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1279px) {}
+
